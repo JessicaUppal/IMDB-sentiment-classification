@@ -8,7 +8,11 @@
 
 Tuesday 
 * Working on scraping the data, data exploration and cleaning.
+
+
 Thursday 
 * Uploading the data into a SQL database, and starting to develop the NLP model
+
+
 Saturday 
 * Continue with developing the model 
