@@ -12,7 +12,10 @@ Tuesday
 
 Thursday 
 * Uploading the data into a SQL database, and starting to develop the NLP model
+* Tokenisation
+* Stop word remover
 
 
 Saturday 
-* Continue with developing the model 
+* TF-IDF, hashing TF and IDF
+* Train the model on features from TF-IDF model
