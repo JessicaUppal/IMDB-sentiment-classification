@@ -1,7 +1,7 @@
 ﻿## IMDB Review Sentiment Classification
 
 
-![Title Image](Resources/imdb_logo.png)
+![imdb_logo](Resources/imdb_logo.png)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
