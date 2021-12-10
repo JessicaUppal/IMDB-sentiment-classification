@@ -31,7 +31,7 @@ The dataset provides 25,000  movie reviews for training and 25,000 for testing.
 
 We have used 2 CSV files in this data set: 
 
-* IMDB Dataset
+* IMDB Dataset.csv
 * new_upcoming_dvd_reviews.csv
 
 CSV files are placed in the Resources folder.
