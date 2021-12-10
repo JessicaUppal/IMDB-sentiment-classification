@@ -51,10 +51,6 @@ The database will be created using PostgreSQL.
 
 
 
-<a href="https://plotly.com/javascript/"><img src="https://images.plot.ly/logo/plotlyjs-logo@2x.png" align="right" height="50"></a>
-
-
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
