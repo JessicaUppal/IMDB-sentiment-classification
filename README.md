@@ -18,6 +18,7 @@
 * [Random Forest Model](#rf-header)
 * [Naive Bayes Model](#nb-header)
 * [SVM Model](#svm-header)
+* [Cross Validation](#cv-header)
 * [Best Model](#best-header)
 * [Collaborators](#team-header)
 
@@ -153,6 +154,15 @@ The database will be created using PostgreSQL.
 * This model works well with a clear margin of separation between classes, which in our data was positive and negative.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## <a id="cv-header"></a>Cross Validation
+
+* The two best performing models were used to perform k fold cross validation, which was the logistic regression model and the SVM. 
+* This was to reduce chances of overfitting. 
+* We used 5 as the number of folds and used the multiclassevaluator
+* Following cross validation on the logistic regression model the accuracy was increased from 0.860 to 0.836
+* Cross validation was also done on the SVM model as it was the model with the highest accuracy of 0.877
+* After cross validation the accuracy slightly decreased to 0.872. 
+* This could be a reduction of overfitting in the SVM model.
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
