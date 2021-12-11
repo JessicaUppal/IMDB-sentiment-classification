@@ -8,7 +8,9 @@
 ## Contents
 
 * [Dataset and Project Outline](#dataset-header)
+* [Setup](#setup-header)
 * [Presentation](#presentation-header)
+* [Project Report](#report-header)
 * [IMDB scraping](#scraping-header)
 * [PostgreSQL connection](#postgres-header)
 * [NLP Pipeline](#pipeline-header)
@@ -40,8 +42,10 @@ We have used 2 CSV files in this data set:
 
 CSV files are placed in the Resources folder.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## <a id="setup-header"></a>Setup
 
-
+* For the project we used google collab in order to run PySpark, which hasn't been installed in our local machines
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,6 +55,11 @@ CSV files are placed in the Resources folder.
 The project presentation can be found in the [/Presentation](Presentation/) directory:
 
 * imdb.pdf
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## <a id="report-header"></a>Project Report
+
+The project report can be found in the the main repository directory:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
