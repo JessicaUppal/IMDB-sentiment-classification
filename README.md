@@ -47,8 +47,7 @@ CSV files are placed in the Resources folder.
 
 * For the project we used google collab in order to run PySpark, which hasn't been installed in our local machines
 * [<img src="https://miro.medium.com/max/800/1*nPcdyVwgcuEZiEZiRqApug.jpeg" align="right"  width="180">](https://spark.apache.org/docs/latest/api/python/)
-
-* A downloaded copy of our collab notebook can be found in the repository.
+* A downloaded copy of our collab notebook can be found in the repository main directory called Review_classification.ipynb
 * To import we used this code, we ran this at the start of our collab file:
 
 ```
