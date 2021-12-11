@@ -10,6 +10,9 @@
 * [Dataset](#dataset-header)
 * [Project Outline](#project-header)
 * [Presentation](#presentation-header)
+* [IMDB scraping](#scraping-header)
+* [PostgreSQL connection](#postgres-header)
+* [NLP Pipeline](#pipeline-header)
 * [Logistic Regression](#lr-header)
 * [Random Forest Model](#rf-header)
 * [Naive Bayes Model](#nb-header)
@@ -43,7 +46,7 @@ CSV files are placed in the Resources folder.
 ## <a id="project-header"></a>Project Outline
 We will be …
 
-The dataset from Kaggle consists of one csv file. The second csv file is from the scraped data from the IMDB website. It contains three colums which is the movie title, url and review. When making predictions on the best model we dropped the title and url columns. 
+The dataset from Kaggle consists of one csv file. The second csv file is from the scraped data from the IMDB website. It contains three columns which is the movie title, URL and review. When making predictions on the best model we dropped the title and URL columns. 
 
 [<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" align="right"  width="100">](https://www.postgresql.org/)
   
@@ -58,9 +61,16 @@ The database will be created using PostgreSQL.
 
 The project presentation can be found in the [/Presentation](Presentation/) directory:
 
-* imdb_report.pdf
+* imdb.pdf
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## <a id="scraping"></a>IMDB Scraping
+
+## <a id="postgres"></a>PostgreSQL connection
+
+## <a id="pipeline"></a>NLP Pipeline
+
 
 ## <a id="lr-header"></a>Logistic Regression 
 
