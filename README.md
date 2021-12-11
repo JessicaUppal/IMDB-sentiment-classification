@@ -82,6 +82,8 @@ The project presentation can be found in the [/Presentation](Presentation/) dire
 
 The project report can be found in the [/report](Project-Report.docx/) directory:
 
+* Project-Report.docx
+* 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## <a id="scraping"></a>IMDB Scraping
