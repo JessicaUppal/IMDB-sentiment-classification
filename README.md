@@ -48,6 +48,30 @@ CSV files are placed in the Resources folder.
 * For the project we used google collab in order to run PySpark, which hasn't been installed in our local machines
 * [<img src="https://miro.medium.com/max/800/1*nPcdyVwgcuEZiEZiRqApug.jpeg" align="right"  width="180">](https://spark.apache.org/docs/latest/api/python/)
 
+To import we used this code, which is also found in our imdb_machine_learning.ipynb
+
+import os
+# Find the latest version of spark 3.0  from http://www.apache.org/dist/spark/ and enter as the spark version
+spark_version = "spark-3.2.0"
+os.environ['SPARK_VERSION']=spark_version
+
+# Install Spark and Java
+!apt-get update
+!apt-get install openjdk-8-jdk-headless -qq > /dev/null
+!wget -q http://www.apache.org/dist/spark/$SPARK_VERSION/$SPARK_VERSION-bin-hadoop2.7.tgz
+!tar xf $SPARK_VERSION-bin-hadoop2.7.tgz
+!pip install -q findspark
+
+# Set Environment Variables
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["SPARK_HOME"] = f"/content/{spark_version}-bin-hadoop2.7"
+
+# Start a SparkSession
+import findspark
+findspark.init()
+
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
