@@ -7,8 +7,7 @@
 
 ## Contents
 
-* [Dataset](#dataset-header)
-* [Project Outline](#project-header)
+* [Dataset and Project Outline](#dataset-header)
 * [Presentation](#presentation-header)
 * [IMDB scraping](#scraping-header)
 * [PostgreSQL connection](#postgres-header)
@@ -21,7 +20,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## <a id="dataset-header"></a>Dataset
+## <a id="dataset-header"></a>Dataset and Project Outline
 
 For our project we’ve used sentiment analysis to classify reviews scraped of the IMDB website as either positive or negative using sentiment classification. 
 
@@ -41,18 +40,6 @@ We have used 2 CSV files in this data set:
 
 CSV files are placed in the Resources folder.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-## <a id="project-header"></a>Project Outline
-We will be …
-
-The dataset from Kaggle consists of one csv file. The second csv file is from the scraped review data from the IMDB website. It contains three columns which is the movie title, URL and review. When making predictions on the best model we dropped the title and URL columns, as only the review was needed to make a sentiment prediction.
-
-[<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" align="right"  width="100">](https://www.postgresql.org/)
-  
-The database will be created using PostgreSQL. 
 
 
 
@@ -81,6 +68,9 @@ The project presentation can be found in the [/Presentation](Presentation/) dire
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## <a id="postgres"></a>PostgreSQL connection
+[<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" align="right"  width="100">](https://www.postgresql.org/)
+  
+The database will be created using PostgreSQL. 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -131,6 +121,9 @@ The project presentation can be found in the [/Presentation](Presentation/) dire
 
 ## <a id="svm-header"></a>SVM Model
 
+* We used the SVM model which allows for more accurate machine learning because it’s multidimensional. 
+* The SVM model achieved the highest accuracy out of the four models0.877)
+* This model works well with a clear margin of separation between classes, which in our data was positive and negative.
 
 
 ----------------------------------------------------------------------------------------------------------------------------
