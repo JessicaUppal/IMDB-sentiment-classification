@@ -18,6 +18,7 @@
 * [Random Forest Model](#rf-header)
 * [Naive Bayes Model](#nb-header)
 * [SVM Model](#svm-header)
+* [Best Model](#best-header)
 * [Collaborators](#team-header)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -147,12 +148,20 @@ The database will be created using PostgreSQL.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## <a id="svm-header"></a>SVM Model
-
 * We used the SVM model which allows for more accurate machine learning because it’s multidimensional. 
 * The SVM model achieved the highest accuracy out of the four models (0.877)
 * This model works well with a clear margin of separation between classes, which in our data was positive and negative.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## <a id="best-header"></a>Best Model
+
+* The SVM  achieved the highest accuracy both before and after the cross validation so we decided to use it to pick the best model.
+* This model was used to make the prediction on the unlabeled scraped review data. 
+* The best model accuracy was 0.872
 
 ----------------------------------------------------------------------------------------------------------------------------
 
