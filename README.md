@@ -102,7 +102,8 @@ The project report can be found in the [/report](Project-Report.docx/) directory
 ## <a id="postgres"></a>PostgreSQL connection
 [<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" align="right"  width="100">](https://www.postgresql.org/)
   
-The database will be created using PostgreSQL. 
+* The database will be created using PostgreSQL, and deployed using Heroku to have the database in the cloud.
+* This will allow us to access the database in google colab, using sqlalchemy and psyopg2.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
