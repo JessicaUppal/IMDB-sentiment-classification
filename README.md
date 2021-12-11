@@ -80,7 +80,7 @@ The project presentation can be found in the [/Presentation](Presentation/) dire
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <a id="report-header"></a>Project Report
 
-The project report can be found in the [/report](Project-Report/) directory:
+The project report can be found in the [/report](Project-Report.docx/) directory:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
