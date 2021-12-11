@@ -150,7 +150,7 @@ The database will be created using PostgreSQL.
 ## <a id="svm-header"></a>SVM Model
 
 * We used the SVM model which allows for more accurate machine learning because it’s multidimensional. 
-* The SVM model achieved the highest accuracy out of the four models0.877)
+* The SVM model achieved the highest accuracy out of the four models (0.877)
 * This model works well with a clear margin of separation between classes, which in our data was positive and negative.
 
 
